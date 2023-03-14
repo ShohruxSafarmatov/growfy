@@ -1145,13 +1145,16 @@ body {
         margin: 0 auto;
     }
 
+    .news__list {
+        justify-content: center;
+    }
+
     .businnes__box {
         margin-bottom: 30px;
     }
 }
 
 @media only screen and (max-width:768px) {
-
 
     .header__wrapper {
         align-items: flex-start;
