@@ -1190,5 +1190,26 @@ body {
         flex-direction: column;
         row-gap: 30px;
     }
+    .businnes{
+        margin-bottom: 150px;
+    }
+
+    .businnes__btns {
+        column-gap: 15px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .businnes__btn {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        padding: 10px 17px;
+    }
+
+    .footer__item-form {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
 }
