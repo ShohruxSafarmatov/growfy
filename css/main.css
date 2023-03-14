@@ -1135,6 +1135,10 @@ body {
         flex-direction: column;
     }
 
+    .clients__list {
+        justify-content: center;
+    }
+
     .businnes__box,
     .businnes__btns {
 
