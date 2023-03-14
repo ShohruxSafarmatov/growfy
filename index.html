@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!-- Css -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 
@@ -26,10 +26,13 @@
     <header class="header">
         <div class="header__container container">
             <div class="header__wrapper">
-                <a class="header__site-link" href="index.html">
+                <a class="header__site-link" href="./index.html">
                     <img class="header__site-logo" src="./img/site-logo.svg" alt="site-logo">
                 </a>
                 <div class="header__box">
+                    <button class="haeder__close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
                     <nav class="header__nav nav">
                         <ul class="nav__list">
                             <li class="nav__item">
@@ -53,7 +56,11 @@
                     <button class="header__btn">
                         Get started
                     </button>
+
                 </div>
+                <button class="header__menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
 
 
             </div>
@@ -475,7 +482,8 @@
         <div class="footer__container container">
             <ul class="footer__list">
                 <li class="footer__item">
-                    <a class="footer__site-link" href="index.html"><img class="footer__site-logo" src="./img/site-logo.svg" alt="site-logo"></a>
+                    <a class="footer__site-link" href="./index.html"><img class="footer__site-logo"
+                            src="./img/site-logo.svg" alt="site-logo"></a>
                     <p class="footer__text">Growfy is a template highly suitable for modern marketing agencies, digital
                         studios, startups and
                         businesses. The design
@@ -523,9 +531,7 @@
                     <form class="footer__item-form">
                         <input class="footer__item-input" type="text" placeholder="Enter your email" required>
                         <button class="footer__item-btn" type="submit">Subscribe</button>
-
                     </form>
-
                 </li>
             </ul>
             <p class="footer__sub-text">© 2023</p>
@@ -533,6 +539,8 @@
     </footer>
 
     <!-- Footer end -->
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
