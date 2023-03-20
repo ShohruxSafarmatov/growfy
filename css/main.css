@@ -228,6 +228,10 @@ body {
         overflow: hidden;
     }
 
+    .nav__link {
+        font-size: 35px;
+    }
+
     .header__btn {
         font-size: 12px;
         padding: 10px 20px;
@@ -1716,6 +1720,7 @@ body {
         flex: 0 1 auto;
 
     }
+
     .footer__item:nth-child(2) {
         flex: 0 1 110px;
 
@@ -1737,7 +1742,8 @@ body {
         row-gap: 20px;
     }
 
-    .footer__item-input,.footer__item-btn{
+    .footer__item-input,
+    .footer__item-btn {
         width: 100%;
     }
 
