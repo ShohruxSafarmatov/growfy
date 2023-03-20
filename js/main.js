@@ -1,12 +1,12 @@
-let elBox = document.querySelector(".header__box");
+let elNav = document.querySelector(".nav");
 let elCloseBtn = document.querySelector(".haeder__close-btn");
 let elMenuBtn = document.querySelector(".header__menu-btn");
 
 
 elMenuBtn.addEventListener('click', () => {
-    elBox.style.right = "0px"
+    elNav.style.right = "0"
 });
 
 elCloseBtn.addEventListener('click', () => {
-    elBox.style.right = "-400px"
+    elNav.style.right = "-100%"
 });
